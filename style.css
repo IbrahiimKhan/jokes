@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600;700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    font-family: 'Oswald', sans-serif;
+}
+#content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+   
+}
+.jokes_container{
+  
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2px;
+}
+.btn{
+    background-color: #000;
+    margin: 2rem 0;
+    color:#fff;
+    transition: 0.1s ease all;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+h3{
+    font-weight: 900;
+    font-size: 30px;
+}
+.jokes{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.jokesBtn{
+    
+}
