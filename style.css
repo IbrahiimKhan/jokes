@@ -7,6 +7,11 @@ html, body {
     display: table;
     font-family: 'Oswald', sans-serif;
 }
+body{
+    background-image: url("./jokes.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #content {
     display: table-cell;
     text-align: center;
