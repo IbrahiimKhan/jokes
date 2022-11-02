@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;500;700&family=Nunito:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Gothic A1', sans-serif;
+font-family: 'Nunito', sans-serif;
+}
+.container {
+    align-items: center!important;
+    display: flex!important;
+    justify-content: center!important;
+    height: 100%!important;
+    width: 100%!important;
+  }
+  .innerdiv {
+    display: block;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 20px 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 70%;
+}
+.wrapper{
+    align-items: center;
+    width: 100%;
+}
+.select_div{
+    text-align: center;
+    width: 100%;
+
+    
+}
+select#categories {
+    padding: 10px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.btn-success {
+    color: #fff;
+    background-color: blue!important;
+    border-color: blue!important;
+    margin-top: 10px;
+    font-size: 15px!important;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: blue!important;
+    border-color: blue!important;
+    font-size: 15px!important;
+}
+button:focus { outline: none !important; box-shadow: none !important; }
+.row.wrapper {
+    height: 500px;
+
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.main{
+    background-image: url("./bg_new.svg")!important;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.btn-success,.btn-success:hover {
+    color: #fff;
+    background-color: #fff!important;
+    border-color: #000!important;
+    color: #000!important;
+    border: 2px solid black!important;
+}
+body{
+    background-color: #f3f3f3!important;
+    background-image: url("./1_VuRMGPKL5vgl_22OhhnbiQ.gif")!important;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
